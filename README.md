@@ -95,7 +95,7 @@ Para utilizar sua chave API no Google Colab de forma segura:
 ## 🚀 Como Executar
 
 - [ ] Obter a API_KEY no Google AI Studio
-- [ ] Clicar no botão ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) dentro do arquivo `gerarLivro.ipynb`
+- [ ] Clicar no botão ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) dentro do arquivo [gerarLivro.ipynb](https://github.com/marioluciofjr/Livro_com_IA_generativa/blob/main/gerarLivro.ipynb)
 - [ ] Configurar a API_KEY em 'Secrets' no Google Colab
 - [ ] Executar o primeiro bloco do código (instalações)
 - [ ] Executar o segundo bloco do código (importações)
