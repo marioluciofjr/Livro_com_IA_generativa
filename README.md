@@ -4,18 +4,18 @@ Este repositório é para informações do código `gerarLivro.ipynb`
 ## 📑 Índice
 
 * [Introdução](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-introdu%C3%A7%C3%A3o)
-* [Estrutura do Projeto](#-estrutura-do-projeto)
-* [Tecnologias Utilizadas](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#tecnologias-utilizadas)
-* [Requisitos](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#requisitos)
-* [Como obter a API_KEY no Google AI Studio](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-obter-a-api_key-no-google-ai-studio)
-* [Como configurar a API_KEY no Google Colab](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-configurar-a-api_key-no-google-colab)
-* [Como Executar](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-executar)
-* [Orientações](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#orienta%C3%A7%C3%B5es)
-* [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#links-%C3%BAteis)
-* [Disclaimer](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#disclaimer-uso-respons%C3%A1vel-e-revis%C3%A3o-humana)
-* [Contribuições](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#contribui%C3%A7%C3%B5es)
-* [Licença](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#licen%C3%A7a)
-* [Contato](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#contato)
+* [Estrutura do Projeto](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-estrutura-do-projeto)
+* [Tecnologias Utilizadas](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#%EF%B8%8F-tecnologias-utilizadas)
+* [Requisitos](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-requisitos)
+* [Como obter a API_KEY no Google AI Studio](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-como-obter-a-api_key-no-google-ai-studio)
+* [Como configurar a API_KEY no Google Colab](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-como-configurar-a-api_key-no-google-colab)
+* [Como Executar](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-como-executar)
+* [Orientações](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-orienta%C3%A7%C3%B5es)
+* [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-links-%C3%BAteis)
+* [Disclaimer](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#%EF%B8%8F-disclaimer-uso-respons%C3%A1vel-e-revis%C3%A3o-humana)
+* [Contribuições](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-contribui%C3%A7%C3%B5es)
+* [Licença](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-licen%C3%A7a)
+* [Contato](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-contato)
 
 ## 📝 Introdução
 
@@ -25,7 +25,7 @@ Este projeto utiliza inteligência artificial generativa para superar o bloqueio
 
 A ideia para este projeto surgiu de um tweet: [@_avichawla](https://x.com/_avichawla/status/1900434649673064753), que demonstrou como diferentes agentes de IA poderiam colaborar para criar conteúdo de qualidade.
 
-O desenvolvimento seguiu o método "vibe coding" (mais detalhes disponíveis na seção de [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#links-%C3%BAteis)), onde o código foi gerado no [Cursor IDE](https://www.cursor.com/) utilizando o modelo Claude 3.7 Sonnet. Para definir os papéis e personalidades dos agentes, utilizei as regras geradas pelo GPT personalizado do CrewAI.
+O desenvolvimento seguiu o método "vibe coding" (mais detalhes disponíveis na seção de [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#-links-%C3%BAteis)), onde o código foi gerado no [Cursor IDE](https://www.cursor.com/) utilizando o modelo Claude 3.7 Sonnet. Para definir os papéis e personalidades dos agentes, utilizei as regras geradas pelo GPT personalizado do CrewAI.
 
 O sistema opera por meio de três agentes especializados em um fluxo sequencial:
 
@@ -95,7 +95,7 @@ Para utilizar sua chave API no Google Colab de forma segura:
 ## 🚀 Como Executar
 
 - [ ] Obter a API_KEY no Google AI Studio
-- [ ] Clicar no botão 'Open in Colab' dentro do arquivo 'gerarLivro.ipynb'
+- [ ] Clicar no botão ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) dentro do arquivo `gerarLivro.ipynb`
 - [ ] Configurar a API_KEY em 'Secrets' no Google Colab
 - [ ] Executar o primeiro bloco do código (instalações)
 - [ ] Executar o segundo bloco do código (importações)
