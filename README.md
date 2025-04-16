@@ -1,7 +1,5 @@
 # Livro_com_IA_generativa
-Este repositório é para informações do código 'gerarLivro'
-
-# Gerador de Livros com IA: Um Sistema de Criação Colaborativa com Agentes Especializados
+Este repositório é para informações do código `gerarLivro.ipynb`
 
 ## 📑 Índice
 
@@ -14,7 +12,7 @@ Este repositório é para informações do código 'gerarLivro'
 - [Como Executar](#como-executar)
 - [Orientações](#orientações)
 - [Links Úteis](#links-úteis)
-- [Disclaimer: Uso Responsável e Revisão Humana](#disclaimer-uso-responsável-e-revisão-humana)
+- [Disclaimer](#disclaimer-uso-responsável-e-revisão-humana)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
 - [Contato](#contato)
