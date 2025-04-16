@@ -4,7 +4,7 @@ Este repositório é para informações do código `gerarLivro.ipynb`
 ## 📑 Índice
 
 * [Introdução](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#introdu%C3%A7%C3%A3o)
-* [Estrutura do Projeto](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#estrutura-do-projeto)
+* [Estrutura do Projeto](#estrutura-do-projeto)
 * [Tecnologias Utilizadas](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#tecnologias-utilizadas)
 * [Requisitos](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#requisitos)
 * [Como obter a API_KEY no Google AI Studio](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-obter-a-api_key-no-google-ai-studio)
