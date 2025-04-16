@@ -3,19 +3,19 @@ Este repositório é para informações do código `gerarLivro.ipynb`
 
 ## 📑 Índice
 
-- [Introdução](#introdução)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Requisitos](#requisitos)
-- [Como obter a API_KEY no Google AI Studio](#como-obter-a-api_key-no-google-ai-studio)
-- [Como configurar a API_KEY no Google Colab](#como-configurar-a-api_key-no-google-colab)
-- [Como Executar](#como-executar)
-- [Orientações](#orientações)
-- [Links Úteis](#links-úteis)
-- [Disclaimer](#disclaimer-uso-responsável-e-revisão-humana)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-- [Contato](#contato)
+* [Introdução](#introdução)
+* [Estrutura do Projeto](#estrutura-do-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Requisitos](#requisitos)
+* [Como obter a API_KEY no Google AI Studio](#como-obter-a-api_key-no-google-ai-studio)
+* [Como configurar a API_KEY no Google Colab](#como-configurar-a-api_key-no-google-colab)
+* [Como Executar](#como-executar)
+* [Orientações](#orientações)
+* [Links Úteis](#links-úteis)
+* [Disclaimer](#disclaimer-uso-responsável-e-revisão-humana)
+* [Contribuições](#contribuições)
+* [Licença](#licença)
+* [Contato](#contato)
 
 ## 📝 Introdução
 
