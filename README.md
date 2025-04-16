@@ -3,29 +3,29 @@ Este repositório é para informações do código `gerarLivro.ipynb`
 
 ## 📑 Índice
 
-* [Introdução](#introdução)
-* [Estrutura do Projeto](#estrutura-do-projeto)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Requisitos](#requisitos)
-* [Como obter a API_KEY no Google AI Studio](#como-obter-a-api_key-no-google-ai-studio)
-* [Como configurar a API_KEY no Google Colab](#como-configurar-a-api_key-no-google-colab)
-* [Como Executar](#como-executar)
-* [Orientações](#orientações)
-* [Links Úteis](#links-úteis)
-* [Disclaimer](#disclaimer-uso-responsável-e-revisão-humana)
-* [Contribuições](#contribuições)
-* [Licença](#licença)
-* [Contato](#contato)
+* [Introdução](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#introdu%C3%A7%C3%A3o)
+* [Estrutura do Projeto](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#estrutura-do-projeto)
+* [Tecnologias Utilizadas](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#tecnologias-utilizadas)
+* [Requisitos](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#requisitos)
+* [Como obter a API_KEY no Google AI Studio](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-obter-a-api_key-no-google-ai-studio)
+* [Como configurar a API_KEY no Google Colab](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-configurar-a-api_key-no-google-colab)
+* [Como Executar](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#como-executar)
+* [Orientações](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#orienta%C3%A7%C3%B5es)
+* [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#links-%C3%BAteis)
+* [Disclaimer](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#disclaimer-uso-respons%C3%A1vel-e-revis%C3%A3o-humana)
+* [Contribuições](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#contribui%C3%A7%C3%B5es)
+* [Licença](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#licen%C3%A7a)
+* [Contato](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#contato)
 
 ## 📝 Introdução
 
-Este projeto utiliza inteligência artificial para superar o bloqueio criativo na escrita de livros. Por meio de três agentes especializados (Autor, Editor Literário e Revisor), o sistema gera obras completas sobre qualquer tema. É uma ferramenta poderosa para escritores que precisam de um ponto de partida, professores que desejam criar material didático ou qualquer pessoa com uma ideia de livro mas sem tempo ou habilidade para estruturar o conteúdo inicial. O código automatiza o processo criativo inicial, permitindo que você foque na revisão e personalização do conteúdo.
+Este projeto utiliza inteligência artificial generativa para superar o bloqueio criativo na escrita de livros. Por meio de três agentes inteligentes (Autor, Editor Literário e Revisor), o sistema gera obras completas sobre qualquer tema. É uma ferramenta poderosa para escritores que precisam de um ponto de partida, professores que desejam criar material didático ou qualquer pessoa com uma ideia de livro mas sem tempo ou habilidade para estruturar o conteúdo. O código automatiza o processo criativo inicial, permitindo que você foque na revisão e personalização do conteúdo.
 
 ## 🧩 Estrutura do Projeto
 
-A ideia para este projeto surgiu de um tweet inspirador: [@_avichawla](https://x.com/_avichawla/status/1900434649673064753), que demonstrou como diferentes especialistas de IA poderiam colaborar para criar conteúdo de alta qualidade.
+A ideia para este projeto surgiu de um tweet: [@_avichawla](https://x.com/_avichawla/status/1900434649673064753), que demonstrou como diferentes agentes de IA poderiam colaborar para criar conteúdo de qualidade.
 
-O desenvolvimento seguiu o método "vibe coding" (mais detalhes disponíveis na seção de [Links Úteis](#links-úteis)), onde o código foi gerado no [Cursor IDE](https://www.cursor.com/) utilizando o modelo Claude 3.7 Sonnet. Para definir os papéis e personalidades dos agentes, utilizei as regras geradas pelo GPT personalizado do CrewAI.
+O desenvolvimento seguiu o método "vibe coding" (mais detalhes disponíveis na seção de [Links Úteis](https://github.com/marioluciofjr/Livro_com_IA_generativa/tree/main?tab=readme-ov-file#links-%C3%BAteis)), onde o código foi gerado no [Cursor IDE](https://www.cursor.com/) utilizando o modelo Claude 3.7 Sonnet. Para definir os papéis e personalidades dos agentes, utilizei as regras geradas pelo GPT personalizado do CrewAI.
 
 O sistema opera por meio de três agentes especializados em um fluxo sequencial:
 
@@ -33,22 +33,21 @@ O sistema opera por meio de três agentes especializados em um fluxo sequencial:
 2. **Agente Editor Literário**: Refina e melhora o texto, focando na qualidade narrativa
 3. **Agente Revisor**: Realiza a revisão final, garantindo correção gramatical e ortográfica
 
-Cada agente tem sua personalidade, objetivos e expertise definidos, permitindo que colaborem efetivamente para criar um resultado superior ao que qualquer um deles conseguiria individualmente.
+Cada agente tem sua personalidade, objetivos, regras e expertise definidos, permitindo que colaborem efetivamente para criar um resultado coerente.
 
-O código também inclui a funcionalidade de extrair conteúdo de URLs como referência, e salva o livro gerado em formato Markdown para fácil edição posterior.
+O código também inclui a funcionalidade de extrair conteúdo de URLs como referência e salva o livro gerado em formato Markdown para fácil edição posterior.
 
 ## 🛠️ Tecnologias Utilizadas
 
 <div>
-  <img align="center" height="60" width="80" src="https://www.gstatic.com/images/branding/product/1x/colab_48dp.png" alt="Google Colab" />
-  <img align="center" height="60" width="80" src="https://cursor.sh/apple-touch-icon.png" alt="Cursor IDE" />
-  <img align="center" height="60" width="80" src="https://lh3.googleusercontent.com/HuPZAKGp08rLAno_OdwkRZCKW8SWnIZMXzBhLZ7G4JF-5qhEbU_t3QHw-bAZ-qVPeA5J-qYi7zw=e14-rj-sc0xffffff-h130-w32" alt="Google AI Studio" />
-  <img align="center" height="60" width="80" src="https://www.anthropic.com/images/favicon.ico" alt="Claude" />
-  <img align="center" height="60" width="80" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" alt="Gemini" />
-  <img align="center" height="60" width="80" src="https://www.svgrepo.com/show/306500/openai.svg" alt="ChatGPT" />
-  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
-  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" alt="Markdown" />
-  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/beautifulsoup/beautifulsoup-original.svg" alt="BeautifulSoup" />
+  <img align="center" height="60" width="80" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" />&nbsp;&nbsp;&nbsp
+  <img align="center" height="60" width="60" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/cursor.png" />&nbsp;&nbsp;&nbsp
+  <img align="center" height="60" width="60" src="https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/aistudio-color.png" />&nbsp;&nbsp;&nbsp
+  <img align="center" height="60" width="80" src="https://github.com/user-attachments/assets/1d62c98f-8f78-49d1-b330-901f0f72b4e6" />&nbsp;&nbsp;&nbsp
+  <img align="center" height="60" width="80" src="https://github.com/user-attachments/assets/b50a667a-a3cc-4a8c-8cff-83fe5bf9cdd5" />&nbsp;&nbsp;&nbsp;
+  <img align="center" height="60" width="80" src="https://github.com/user-attachments/assets/03d84c1b-dba8-490d-b29f-085029eeb1df" />&nbsp;&nbsp;&nbsp;
+  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />&nbsp;&nbsp;&nbsp;
+  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />&nbsp;&nbsp;&nbsp;
 </div>
 
 ## 📋 Requisitos
@@ -57,9 +56,10 @@ Para utilizar este projeto, você precisa de:
 
 - **Conta Google**: Necessária para acessar o Google AI Studio e o Google Colab
 - **Chave de API do Google AI Studio (Gemini API)**: Instruções para obtenção abaixo
-- **Bibliotecas**: google-generativeai, beautifulsoup4, requests, markdown (instaladas automaticamente pelo código)
+- **Bibliotecas**: `google-generativeai`, `beautifulsoup4`, `requests`, `markdown` (instaladas por meio do código)
 
-> **Importante**: O código está configurado para ser executado no Google Colab, que fornece todos os recursos computacionais necessários gratuitamente.
+> [!IMPORTANT]
+> O código está configurado para ser executado no Google Colab, que fornece todos os recursos computacionais necessários gratuitamente.
 
 ## 🔑 Como obter a API_KEY no Google AI Studio
 
@@ -71,7 +71,8 @@ Para utilizar este código, você precisará de uma chave de API do Google Gemin
 4. Aceite os termos de serviço, se solicitado
 5. Copie a chave gerada e guarde-a em local seguro
 
-> **Importante**: Atualmente, o Google AI Studio oferece um uso gratuito da API para testes. Sobre demais detalhes da API do Gemini, leia a [documentação oficial](https://ai.google.dev/gemini-api/docs/pricing?hl=pt-br#:~:text=O%20uso%20do%20Google%20AI,em%20todos%20os%20pa%C3%ADses%20dispon%C3%ADveis)
+> [!IMPORTANT]
+> Atualmente, o Google AI Studio oferece um uso gratuito da API para testes. Sobre demais detalhes da API do Gemini, leia a [documentação oficial](https://ai.google.dev/gemini-api/docs/pricing?hl=pt-br#:~:text=O%20uso%20do%20Google%20AI,em%20todos%20os%20pa%C3%ADses%20dispon%C3%ADveis)
 
 ## 🔐 Como configurar a API_KEY no Google Colab
 
@@ -83,7 +84,8 @@ Para utilizar sua chave API no Google Colab de forma segura:
 4. No campo "Nome", digite `sua_api`
 5. No campo "Valor", cole sua chave API do Google AI Studio
 
-O código está configurado para acessar a chave por meio de `userdata.get('sua_api')`. Se preferir usar outro nome, modifique esta linha no código: 
+> [!TIP]
+> O código está configurado para acessar a chave por meio de `userdata.get('sua_api')`. Se preferir usar outro nome, modifique esta linha no código: 
 
 ```python
 # Método 1: Usar chave armazenada no Google Colab
@@ -145,7 +147,8 @@ Os arquivos serão salvos em formato Markdown (.md), que pode ser facilmente con
 
 ## ⚠️ Disclaimer: Uso responsável e revisão humana
 
-> **Importante**: Este sistema foi desenvolvido como uma ferramenta para auxiliar na criação de conteúdo, não para substituir a criatividade humana.
+> [!CAUTION]
+> Este sistema foi desenvolvido como uma ferramenta para auxiliar na criação de conteúdo, não para substituir a criatividade humana.
 
 - O conteúdo gerado deve ser considerado como um **ponto de partida** ou um **primeiro rascunho**
 - A **revisão humana é essencial** para garantir qualidade, precisão e originalidade
@@ -153,7 +156,7 @@ Os arquivos serão salvos em formato Markdown (.md), que pode ser facilmente con
 - A **autoria final** e o **olhar crítico** permanecem responsabilidades humanas
 - Recomenda-se fortemente uma **revisão completa** por um escritor ou editor humano antes de qualquer publicação
 
-Nenhum sistema de IA, por mais avançado que seja, pode substituir completamente a sensibilidade, experiência e julgamento humanos na criação literária de qualidade.
+Nenhum modelo de IA generativa, por mais avançado que seja, pode substituir completamente a sensibilidade, experiência e julgamento humanos na criação literária de qualidade.
 
 ## 🤝 Contribuições
 
