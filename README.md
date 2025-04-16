@@ -99,13 +99,13 @@ O código está configurado para acessar a chave por meio de `userdata.get('sua_
 - [ ] Configurar a API_KEY em 'Secrets' no Google Colab
 - [ ] Executar o primeiro bloco do código (instalações)
 - [ ] Executar o segundo bloco do código (importações)
-- [ ] Preencher os inputs solicitados:
+- [ ] Executar o terceiro bloco de código e preencher os inputs solicitados:
   - Tema do livro
   - Número de capítulos
   - Tom de voz desejado
   - Contexto e detalhes adicionais
   - URL de referência (opcional)
-- [ ] Executar o terceiro bloco do código
+- [ ] Executar o quarto bloco do código
 
 ```python
 start_time = time.time()
