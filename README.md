@@ -17,15 +17,6 @@ Este repositório é para informações do código `gerarLivro.ipynb`
 * [Licença](#licença)
 * [Contato](#contato)
 
-## índice
-
-* [Introdução](#introdução)
-* [Resultado](#resultado)
-* [Estrutura do projeto](#estrutura-do-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Links úteis](#links-úteis)
-* [Contato](#contato)
-
 ## 📝 Introdução
 
 Este projeto utiliza inteligência artificial para superar o bloqueio criativo na escrita de livros. Por meio de três agentes especializados (Autor, Editor Literário e Revisor), o sistema gera obras completas sobre qualquer tema. É uma ferramenta poderosa para escritores que precisam de um ponto de partida, professores que desejam criar material didático ou qualquer pessoa com uma ideia de livro mas sem tempo ou habilidade para estruturar o conteúdo inicial. O código automatiza o processo criativo inicial, permitindo que você foque na revisão e personalização do conteúdo.
