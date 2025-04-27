@@ -56,7 +56,6 @@ Para utilizar este projeto, você precisa de:
 
 - **Conta Google**: Necessária para acessar o Google AI Studio e o Google Colab
 - **Chave de API do Google AI Studio (Gemini API)**: Instruções para obtenção abaixo
-- **Bibliotecas**: `google-generativeai`, `beautifulsoup4`, `requests`, `markdown` (instaladas por meio do código)
 
 > [!IMPORTANT]
 > O código está configurado para ser executado no Google Colab, que fornece todos os recursos computacionais necessários gratuitamente.
